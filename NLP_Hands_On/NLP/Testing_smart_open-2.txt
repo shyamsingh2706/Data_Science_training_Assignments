@@ -1,0 +1,9 @@
+Now, when your text input is large, you need to be able to create the dictionary object without having to load the entire text file.
+
+The good news is Gensim lets you read the text and update the dictionary, one line at a time, without loading the entire text file into system memory. Let’s see how to do that in the next 2 sections.
+
+But, before we get in, let’s understand some NLP jargon.
+
+A ‘token’ typically means a ‘word’. A ‘document’ can typically refer to a ‘sentence’ or ‘paragraph’ and a ‘corpus’ is typically a ‘collection of documents as a bag of words’. That is, for each document, a corpus contains each word’s id and its frequency count in that document. As a result, information of the order of words is lost.
+
+If everything is clear so far, let’s get our hands wet and see how to create the dictionary from a list of sentences.
